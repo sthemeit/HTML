@@ -1,0 +1,182 @@
+/* Varrible CSS */
+:root{
+    --si-brand-color-one:#ff6d00;
+    --si-font-family: "Space Grotesk", sans-serif;
+    --si-body-color:#454545;
+    --si-heading-color:#101010;
+    --si-btn-bg:#0f0d1d;
+    --si-color-white:#fff;
+}
+/* SI Header Top Section */
+.si-header-top-section {
+    background-color: var(--si-brand-color-one);
+    padding: 12px 0;
+}
+.si__header__top__address ul li {
+    display: inline;
+    margin-right: 42px;
+    color: var(--si-color-white);
+    position: relative;
+}
+.si__header__top__address ul li:before {
+    position: absolute;
+    content: "";
+    top: 2px;
+    right: -19px;
+    width: 1px;
+    height: 18px;
+    background: var(--si-color-white);
+    opacity: 0.3;
+}
+.si__header__top__address ul li:last-child:before{
+    display: none;
+}
+.si__header__top__address ul li i {
+    margin-right: 10px;
+}
+.si__header__top__social a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.si__header__top__social a:hover{
+    color: var(--si-brand-color-one);
+}
+/* Si Header Area */
+.si-header-menu-area {
+    padding: 20px 0 20px;
+}
+.si-header-logo a img {
+    max-width: 150px;
+}
+.si-header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.si-header-menu ul{
+    display: inline-block;
+}
+.si-header-menu ul li {
+    display: inline;
+    margin-right: 30px;
+}
+.si-header-menu ul li a{
+    font-weight: 500;
+}
+.si-header-menu ul li a i {
+    font-size: 12px;
+    margin-left: 3px;
+    display: inline-block;
+}
+.si-header-right {
+    display: inline-block;
+    margin-right: -2px;
+}
+.si-header-right a i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.si__btn__one {
+    display: inline-block;
+    background: var(--si-brand-color-one);
+    padding: 14px 38px;
+    color: var(--si-color-white);
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+.si__btn__one::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background: var(--si-btn-bg);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    z-index: -1;
+}
+.si__btn__one:hover::before{
+    width: 100%;
+    left: 0;
+}
+/* SI Slider Area */
+.si-slider-content {
+    padding: 105px 0 105px;
+}
+.si-slider-inner {
+    display: inline-block;
+    width: 680px;
+    background: var(--si-brand-color-one);
+    padding: 93px 60px 96px;
+}
+.si-slider-content h5 {
+    color: var(--si-color-white);
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.si-slider-content h1{
+    color: var(--si-color-white);
+}
+.si-slider-content p {
+    color: var(--si-color-white);
+}
+.si__btn__slider {
+    display: inline-block;
+    background:var(--si-color-white);
+    padding: 14px 38px;
+    color: var(--si-brand-color-one);
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.si__btn__slider::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    background:var(--si-btn-bg);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    z-index: -1;
+}
+.si__btn__slider:hover::before{
+    width: 100%;
+    left: 0;
+}
+.si__btn__slider:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
